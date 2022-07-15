@@ -1,9 +1,9 @@
 # openvino_2022.1.0.643_MaskRCNN
 
 #CMD
- .\openvinoMaskRCNNNewAPI.exe ..\models\mask_rcnn_R_50_FPN_1x.onnx ..\testImages\COCO_val2014_000000001722.jpg
+.\openvinoMaskRCNNNewAPI.exe ..\models\mask_rcnn_R_50_FPN_1x.onnx ..\testImages\COCO_val2014_000000001722.jpg
  
- #reference
+#reference
  maskrcnn：
  https://github.com/BowenBao/maskrcnn-benchmark/tree/onnx_stage_mrcnn
  
