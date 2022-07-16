@@ -7,7 +7,8 @@
 maskrcnn：
 https://github.com/BowenBao/maskrcnn-benchmark/tree/onnx_stage_mrcnn
 
-pytorch1.2 onnx1.8.0
+onnx inference env：pytorch1.2 onnx1.8.0
+training env：pytorch1.6+ and serialize the model
 
 openvino
 https://docs.openvino.ai/latest/openvino_docs_MO_DG_prepare_model_convert_model_onnx_specific_Convert_Mask_RCNN.html
