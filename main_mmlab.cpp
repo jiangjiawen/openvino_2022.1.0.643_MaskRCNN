@@ -15,7 +15,7 @@ int main(int argc, char** argv) {
     int64 *pred_label;
     float *pred_mask;
     int count;
-    cv::Mat img = cv::imread("..\\testImages\\01414_double_head.jpg");
+    cv::Mat img = cv::imread("..\\testImages\\test.jpg");
 
     const std::chrono::time_point<std::chrono::steady_clock> start =
             std::chrono::steady_clock::now();
