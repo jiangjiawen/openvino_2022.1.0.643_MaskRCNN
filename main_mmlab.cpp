@@ -37,7 +37,7 @@ int main(int argc, char** argv) {
     offset off=detector.GetOffsetInfo();
     const int MASK_STEP_SIZE = 28*28;
     for(int ind=0;ind<count;ind++){
-        float score = *(pred_bbox+ind*5+5);
+        float score = *(pred_bbox+ind*5+4);
 
         if(score < SCORE_THRESHOLD)
             continue;
